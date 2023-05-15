@@ -5,6 +5,7 @@ namespace ariel{}
 Cowboy::Cowboy(string name, const Point &location) : Character(name, location), bollets(6)
 {
 }
+Cowboy::~Cowboy(){}
 void Cowboy::shoot(const Character *other)
 {
 }

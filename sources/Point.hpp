@@ -12,6 +12,9 @@ public:
     // const
     Point(double x, double y);
     //~Point();
+    double gitX();
+    double gitY();
+
 
     double distance(const Point &other) const;
     void print();

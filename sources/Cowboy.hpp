@@ -6,6 +6,7 @@ class Cowboy:public Character{
     int bollets;
     public:
     Cowboy(string name,const Point &lacation);
+    ~Cowboy();
     void shoot(const Character* other);
     bool hasboolets();
     void reload();

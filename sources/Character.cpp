@@ -4,6 +4,7 @@ namespace ariel{}
 Character::Character(string name,const Point &location) : name(name), location(location)
 {
 }
+Character ::~Character(){} 
 bool Character::isAlive()
 {
     return true;

@@ -10,6 +10,7 @@ private:
 
 public:
     Ninja(string name, const Point &lacation);
+    ~Ninja();
     void move(Character *other);
     virtual void slash(Character *other);
 };

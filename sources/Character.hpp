@@ -13,6 +13,7 @@ private:
 
 public:
     Character(string name,const Point &lacation);
+    ~Character();
     bool isAlive();
     double distance(const Character &other) const;
     void hit(int num);

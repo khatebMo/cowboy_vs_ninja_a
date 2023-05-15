@@ -13,3 +13,9 @@ Point Point::moveTowards(Point location, Point newLocation, double dist){
     Point temp(1.4,2.1);
     return temp;
 }
+double Point::gitX(){
+    return x;
+}
+double Point::gitY(){
+    return y;
+}
